@@ -1,0 +1,125 @@
+/*body{
+	 background-image: url(images.jfif.jfif);
+	background-size: auto;
+}*/
+
+h1{
+	color: black;
+	text-align: center;
+	text-shadow: 2px 2px 3px rgba(197, 69, 36, 1);
+	cursor: pointer;
+}
+.navbar ul{
+	background-color: black;
+	list-style-type: none;
+	
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.navbar a{
+	text-decoration: none;
+	color:whitesmoke;
+	text-align: center;
+	display: block;
+	
+	padding:15px; 
+
+}
+.navbar li{
+	float: left;
+}
+.b1 button{
+	background-color: rgba(51, 170, 51, 0.801);
+	color: whitesmoke;
+	border-radius: 25px;
+	border: none;
+	padding: 8px 14px;
+	transition: all 0.5s;
+	box-shadow: 5px 5px 3px #88888888;
+}
+.b1 button:hover{
+	color: rgba(3, 56, 3, 0.873);
+	background-color: rgba(12, 10, 10, 0.438);
+
+	transform: scale(1.1);
+}
+.dropdown{
+	display: inline-block;
+}
+.dropdown button{
+background-color: rgba(51, 170, 51, 0.801);
+color: black;
+padding: 8px 13px;
+border-radius: 6px;
+border: none;
+cursor: pointer;
+}
+.dropdown a{
+	text-decoration: none;
+	display: block;
+	color: black;
+	padding: 6px 9px;
+}
+.dropdown .content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	box-shadow: 6px 6px 15px rgba(19, 27, 15, 0.336);	
+	min-width: 100px;
+}
+.dropdown:hover .content{
+	display: block; 
+}
+.dropdown:hover button{
+	background-color:black;
+	color: goldenrod;
+}
+.dropdown a:hover{
+	background-color: goldenrod;
+}
+
+#Hourhead{
+	/*border: 5px outset blueviolet;*/
+	font-style: italic;
+	font-weight: bold;
+	width: 115px;
+	border-right: 5px outset blueviolet ;
+	border-bottom:  5px outset blueviolet;
+	text-align: center;
+	text-shadow: 3px 3px 5px;
+	border-radius: 10px;
+	
+	
+	
+}
+
+p{
+color: red;
+line-height: 20px;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "Times new Roman",Georgia;
+/*text-transform: uppercase;
+	text-decoration: underline;
+	text-decoration: line-through;*/
+	
+}
+/*ul{*/
+	 /*list-style:none;
+	 /*display: inline-block; */
+/*}*/
+
+.web{
+	border:5px dashed #Af24;
+}
+.active{
+	color: red;
+}
+/*#div1{
+	background-color: rgba(222,25,0,0.1);
+}
+#div2{
+	background-color: rgba(123,50,230,0.12);
+}*/
